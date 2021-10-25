@@ -1,0 +1,8 @@
+applications:
+  - memory: 128MB
+    disk_quota: 256MB
+    random-route: true
+    name: hsdp-alerts-forwarder
+    env:
+      TOKEN: changeMe
+      MS_TEAMS_WEBHOOK_URL: changeMe
